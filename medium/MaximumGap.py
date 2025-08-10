@@ -1,5 +1,5 @@
 class Solution:
-    def maximumGap(self, nums: List[int]) -> int:
+    def maximumGap(self, nums):
         if not nums or len(nums) <= 1:
             return 0
 
